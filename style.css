@@ -108,3 +108,28 @@ img {
     font-weight: bold;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 100px 300px 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.quote-container h3 {
+    text-align: end;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #1f2937;
+    padding-right: 100px;
+}
