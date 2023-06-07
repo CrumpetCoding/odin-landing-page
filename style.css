@@ -34,18 +34,6 @@ p {
     margin-top: 0px;
 }
 
-button {
-    background-color: #3882F6;
-    padding: 8px 30px;
-    border-radius: 8px;
-    border: 0px;
-    color: #E5E7EB;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-
-
 .nav {
     display: flex;
     justify-content: space-around;
@@ -81,6 +69,16 @@ img {
     margin-right: 125px;
 }
 
+.hero button {
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 0px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .middle-header {
     display: flex;
     justify-content: center;
@@ -113,7 +111,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-content: flex-end;
-    padding: 100px 300px 100px 300px;
+    padding: 100px 300px;
     background-color: #E5E7EB;
 }
 
@@ -132,4 +130,21 @@ img {
     font-size: 18px;
     color: #1f2937;
     padding-right: 100px;
+}
+
+.action-container {
+    display: flex; 
+    justify-content: center;
+    background-color: #3882F6;
+    margin: 100px 300px;
+}
+
+.action-container h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.action-container p {
+    color: #E5E7EB;
+
 }
