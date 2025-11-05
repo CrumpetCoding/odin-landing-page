@@ -82,34 +82,41 @@ a {
     display: flex;
     flex-direction: column;
     background-color: white;
+    align-content: center;
+    height: 350px;
+    width: auto;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.random-heading {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
     text-align: center;
+    margin-bottom: 44px;
+    margin-top: 0;
 }
 
 .random-boxes {
     display: flex;
-    flex-direction: row;
-    background-color: white;
     justify-content: center;
-    align-items: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 100px;
-    margin-top: 25px;
-    justify-content: space-between;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    gap: 66px;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
     background-color: white;
     border: #1f2937;
     border-style: solid;
     border-radius: 10%;
+}
+
+.box p {
+    text-align: center;
+    margin-top: 150px;
 }
 
