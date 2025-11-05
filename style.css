@@ -83,7 +83,7 @@ a {
     flex-direction: column;
     background-color: white;
     align-content: center;
-    height: 350px;
+    height: 400px;
     width: auto;
     justify-content: center;
     padding-bottom: 100px;
@@ -118,5 +118,26 @@ a {
 .box p {
     text-align: center;
     margin-top: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    padding: 0 350px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote-ref {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
 }
 
