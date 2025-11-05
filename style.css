@@ -63,6 +63,7 @@ a {
     border-style: none;
     background-color: #3882f6;
     color: #e5e7eb;
+    font-weight: bold;
 }
 
 .image {
@@ -140,4 +141,44 @@ a {
     font-weight: bold;
     color: #1f2937;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 350px;
+    width: auto;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882f6;
+    height: 200px;
+    width: 70%;
+    border-radius: 1cap;
+}
+
+.action-left {
+    padding: 100px;
+}
+
+.action-right {
+    padding: 100px;
+}
+
+.action-button {
+    text-align: center;
+    background-color: #3882f6;
+    border-color: white;
+    color: #e5e7eb;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
 
