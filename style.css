@@ -180,5 +180,21 @@ a {
     font-weight: bold;
 }
 
+.action-header {
+    color: #e5e7eb;
+}
+
+.action-text {
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
 
 
